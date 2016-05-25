@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'PostgreTest.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'mylocaldb',
         'USER': 'edinhiadmin',
         'PASSWORD': 'jw8s0F4',
