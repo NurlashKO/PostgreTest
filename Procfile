@@ -1,1 +1,1 @@
-web: gunicorn YSound.wsgi --log-file -
+web: gunicorn PostgreTest.wsgi --log-file -
